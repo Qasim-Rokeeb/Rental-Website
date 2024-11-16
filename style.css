@@ -339,10 +339,13 @@ header.sticky{
         
         margin: 10px auto;
     }
+    #menu-icon{
+        display: block;
+    }
     .navlinks{
         display: flex;
         flex-direction: column;
-        top: 10px;
+        top: 40px;
         right: 100%;
         background: white;
         border-radius: 6px;
@@ -359,7 +362,7 @@ header.sticky{
         color: #fff;
         margin-top: 8px;
     }
-    #menu-icon.open{
+    .navlinks.open{
        right: 10px;
     }
 }

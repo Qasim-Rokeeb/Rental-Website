@@ -14,5 +14,5 @@ menu.onclick = () => {
 } 
 window.onscroll = () => {
     menu.classList.remove('bx-x')
-    navlist.classList.remove('open')
+    navlinks.classList.remove('open')
 }
